@@ -1,0 +1,7 @@
+DATABASE
+titolo - $table->string('titolo');
+destinazione -  $table->string('destinazione');
+descrizione - $table->text('descrizione');
+prezzo - $table->unsignedSmallInteger('prezzo');
+data - $table->date('data');
+notti - $table->tinyInteger('notti');
