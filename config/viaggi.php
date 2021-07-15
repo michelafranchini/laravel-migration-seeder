@@ -7,7 +7,7 @@ $data = [
         "destinazione" => "Grecia", 
         "descrizione" => "Pochi giorni a disposizione ma tanta voglia di andare in vacanza? Magari spendendo poco? Ecco le migliori offerte per un weekend low cost!", 
         "prezzo" => "343", 
-        "data" => "24/07/2021", 
+        "data" => "2021/06/20", 
         "notti" => "1"
     ],
     [

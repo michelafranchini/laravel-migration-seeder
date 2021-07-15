@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lobster", cursive;
+}
+
+.container {
+  height: 100vh;
+  background-image: url("https://www.contocorrenteonline.it/wp-content/uploads/2021/06/Vacanza.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.container h1 {
+  padding: 30px;
+  color: white;
+  font-size: 50px;
+}
+
+.container .travel {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .travel_container {
+  width: calc(100% / 3 - 20px);
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.container .travel_container h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.container .travel_container p {
+  margin: 10px;
+  color: white;
+}
+
