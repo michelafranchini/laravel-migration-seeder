@@ -14,7 +14,7 @@ class ViaggiTableSeeder extends Seeder
     {
         $arrayViaggi = config('viaggi'); 
 
-        foreach ($arrayViaggi as $item ) {
+        foreach ($arrayViaggi as $item) {
             
             $viaggio = new Viaggio(); 
 
